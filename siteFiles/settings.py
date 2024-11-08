@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = ["realtrust-b4dcdueya2hgd0cz.canadacentral-01.azurewebsites.net"]
-CSRF_TRUSTED_ORIGINS = ALLOWED_HOSTS
+CSRF_TRUSTED_ORIGINS = ["https://realtrust-b4dcdueya2hgd0cz.canadacentral-01.azurewebsites.net/"]
 
 
 # Application definition
