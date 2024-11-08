@@ -75,3 +75,9 @@ python manage.py collectstatic
 
 Ensure the STATIC_URL and STATICFILES_DIRS settings are configured correctly in settings.py for proper handling of CSS, JS, and image files.
 
+## Deployment Links
+1. [Landing Page](https://realtrust-b4dcdueya2hgd0cz.canadacentral-01.azurewebsites.net/)
+
+2. [Admin Panel](https://realtrust-b4dcdueya2hgd0cz.canadacentral-01.azurewebsites.net/admin)
+
+``Note: for user credientials for admin see the docs``
