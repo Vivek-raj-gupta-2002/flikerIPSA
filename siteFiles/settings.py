@@ -29,7 +29,8 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["realtrust-b4dcdueya2hgd0cz.canadacentral-01.azurewebsites.net"]
+CSRF_TRUSTED_ORIGINS = ALLOWED_HOSTS
 
 
 # Application definition
