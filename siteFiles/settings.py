@@ -29,9 +29,9 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["realtrust-b4dcdueya2hgd0cz.canadacentral-01.azurewebsites.net"]
-CSRF_TRUSTED_ORIGINS = ["https://realtrust-b4dcdueya2hgd0cz.canadacentral-01.azurewebsites.net/"]
-
+ALLOWED_HOSTS = ["realtrust-b4dcdueya2hgd0cz.canadacentral-01.azurewebsites.net", '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ["https://realtrust-b4dcdueya2hgd0cz.canadacentral-01.azurewebsites.net"]
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 # Application definition
 
